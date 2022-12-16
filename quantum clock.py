@@ -6,7 +6,6 @@ while(True):
     t = int(d)/(c)
     x = ((int(n)*int(d))/(c*10000))
     print(Decimal(x-t),"time displacement in seconds")
-    print("jump distance upon paradox resolve: ",str(int(n)*int(d)/c), "meters")
     print()
     
 
