@@ -3,6 +3,11 @@ while(True):
     n = input("Trips count: ")
     c = 299792458
     d = input("distance of wormhole:")
-    t = ((int(n)*int(d))/(c))
-    print(Decimal(t),"time displacement in seconds")
+    t = int(d)/(c)
+    x = ((int(n)*int(d))/(c*10000))
+    print(Decimal(x-t),"time displacement in seconds")
+    print("jump distance upon paradox resolve: ",str(int(n)*int(d)/c), "meters")
     print()
+    
+
+
